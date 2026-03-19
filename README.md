@@ -44,6 +44,6 @@ The Central Server exposes a comprehensive RESTful API handling the following do
 2. Execute the scripts to create and populate the databases for Subsystem 1, Subsystem 2, and Subsystem 3.
 
 ### Running the System
-1. Deploy the Central Server to your Application Server to expose the REST API.
-2. Deploy/Start Subsystem 1, Subsystem 2, and Subsystem 3 so they can begin listening to their respective JMS queues.
-3. Run the Client Application (`java aplikacije` folder) to start interacting with the system.
+1. **Start** the Central Server on your Application Server to expose the REST API.
+2. **Start** Subsystem 1, Subsystem 2, and Subsystem 3 so they can begin listening to their respective JMS queues.
+3. **Run** the Client Application (found in the `java aplikacije` folder) to start interacting with the system.
