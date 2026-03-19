@@ -1,6 +1,6 @@
 # Distributed Data Synchronization System
 
-This repository contains a fully functional, distributed backend system designed for a video management platform. The project demonstrates advanced architectural patterns, including an API Gateway, microservices-like subsystems, and asynchronous message-driven communication to maintain data consistency across multiple isolated databases.
+This repository contains a fully functional, distributed backend system designed for a video management platform.
 
 ## Architecture Overview
 
@@ -47,7 +47,3 @@ The Central Server exposes a comprehensive RESTful API handling the following do
 1. Deploy the Central Server to your Application Server to expose the REST API.
 2. Deploy/Start Subsystem 1, Subsystem 2, and Subsystem 3 so they can begin listening to their respective JMS queues.
 3. Run the Client Application (`java aplikacije` folder) to start interacting with the system.
-
-## Author
-**Matija Krečković**
-*Developed as part of the Information Systems 1 curriculum at the School of Electrical Engineering, University of Belgrade.*
